@@ -1,0 +1,24 @@
+
+.cabecalho{
+  background: #3e608a;
+  margin-bottom: 15px;
+}
+.rodape{
+  margin-top: -15px;
+  text-align: center;
+  background: #3e608a;
+  color: #fdfbfb;
+  font-weight:300;
+}
+span{
+  margin-left: 65%;
+  color: #4286f4;
+  font-weight:400;
+}
+.rodape2{
+  margin-top: 15px;
+  text-align: center;
+  background: #3e608a;
+  color: #fdfbfb;
+  font-weight:300;
+}
