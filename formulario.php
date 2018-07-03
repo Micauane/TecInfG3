@@ -3,6 +3,7 @@
 	<head>
 	<meta charset="utf-8">
 	 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet"  href="css/style.css">
 		<title>Ficha de Publicação</title>
@@ -12,10 +13,10 @@
         <div class="container">
           <div class="row">
         <div class="col-8">
-          <img src="img/ideialogo1.png" alt="">
+          <img id="logo" src="Layouts\PNGs\Logo\Logo.png" alt="">
         </div>
         <div class="col-4">
-          <a class="publicar" href="index.php">voltar ao menu </a>
+          <a class="publicar" href="index.html">Voltar ao Menu </a>
         </div>
       </div>
       </div>
@@ -36,24 +37,15 @@
 													<p class="text-right lead">Titulo</p>
 												</td>
 												<td>
-													<input class="from-control" type="text" name="titulo" placeholder="Insira o titulo Notícia">
+													<input class="from-control" type="text" name="titulo" placeholder="Insira o título">
 												</td>
 											</tr>
 											<tr>
-												<tr>
-													<td>
-														<p class="text-right lead">Subtítulo</p>
-													</td>
-													<td>
-														<input class="from-control" type="text" name="subtitulo" placeholder="Insira o subtitulo Notícia">
-													</td>
-												</tr>
-												<tr>
 												<td>
 													<p  class="text-right lead">Autor</p>
 												</td>
 												<td>
-													<input type="text" name="autor" placeholder="Insira seu nome">
+													<input type="text" name="name" placeholder="Nome do autor">
 												</td>
 											</tr>
 
@@ -62,13 +54,13 @@
 													<p class="text-right lead">Conteúdo</p>
 												</td>
 												<td>
-                          <textarea name="conteudo" rows="8" cols="80" placeholder="Insira seu o conteúdo"></textarea>
+                          <textarea name="text" rows="8" cols="80" placeholder="Insira o conteúdo"></textarea>
 												</td>
 											</tr>
 											<tr>
 												<td></td>
 												<td>
-													<input class="btn btn-info btn-block" type="submit" value="salvar">
+													<input id="salva" class="btn btn-info btn-block" type="submit" value="Salvar">
 												</td>
 											</tr>
 										</tbody>
@@ -84,9 +76,9 @@
       <div class="container">
         <div class="row">
           <div class="col">
-              <img id="logo_fundo" src="img/ideialogofundo.png" alt=""> <br>
+              <img id="logo_fundo" src="Layouts\PNGs\Logo\Logo.png" alt=""> <br>
               C 2018 Todos os direitos reservados. <br>
-              Desenvolvido por GrupoG3
+              Desenvolvido por Grupo 3
           </div>
         </div>
       </div>
