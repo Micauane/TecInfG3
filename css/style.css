@@ -22,3 +22,32 @@ span{
   color: #fdfbfb;
   font-weight:300;
 }
+
+@media (max-width: 480px) {
+  .container{
+    float: none;
+    text-align: center;
+    display: block;
+}
+
+
+@media (max-width:959px) {
+  .col{
+    width: 100%;
+    display: block;
+    clear: both;
+  }
+}
+
+.rodape{
+  clear: both;
+
+}
+}
+
+
+h3{
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
