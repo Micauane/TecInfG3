@@ -1,5 +1,6 @@
 <?php
  include 'connecta.php';
+ include 'pegarnoticias.php'
  ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -26,7 +27,7 @@
     <div class="container">
       <div class="row">
         <div class="col">
-          <h3>Titulo</h3>
+          <h3><?php echo $titulo?></h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
           <span>Micauane O</span>
           <br>Publicado em 20/05/2018.
@@ -113,5 +114,10 @@
       </div>
     </div>
 
+    <?php
+    for ($i=0; $i < 5 ; $i++) {
+      echo '<p>' . $titulo . '</p>';
+    }
+    ?>
   </body>
 </html>
