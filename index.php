@@ -153,10 +153,5 @@
       </div>
     </div>
 
-    <?php
-    for ($i=0; $i < 5 ; $i++) {
-      echo '<p>' . $titulo . '</p>';
-    }
-    ?>
   </body>
 </html>
