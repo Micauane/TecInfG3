@@ -47,6 +47,11 @@ font-weight: bold;
 .paragrafo{
   text-align: justify;
 }
+.paragrafo:hover{
+  background-color: rgba(230, 230, 230, 0.5);
+  font-size: 18px;
+  box-shadow: 2px 2px 1px rgba(230, 230, 230, 0.9);
+}
 
 #01 p:hover{
   -webkit-transform: scale(1.2);
