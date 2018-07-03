@@ -1,3 +1,6 @@
+<?php
+ include 'connecta.php';
+ ?>
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
@@ -7,6 +10,7 @@
     <title>TecNews</title>
   </head>
   <body>
+
     <div class="cabecalho">
         <div class="container">
           <div class="row">
@@ -14,7 +18,7 @@
           <img src="img/ideialogo1.png" alt="">
         </div>
         <div class="col-4">
-          <a class="publicar" href="formulario.html">publicar</a>
+          <a class="publicar" href="formulario.php">publicar</a>
         </div>
       </div>
       </div>

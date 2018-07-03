@@ -3,7 +3,6 @@
 	<head>
 	<meta charset="utf-8">
 	 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet"  href="css/style.css">
 		<title>Ficha de Publicação</title>
@@ -16,7 +15,7 @@
           <img src="img/ideialogo1.png" alt="">
         </div>
         <div class="col-4">
-          <a class="publicar" href="index.html">voltar ao menu </a>
+          <a class="publicar" href="index.php">voltar ao menu </a>
         </div>
       </div>
       </div>
@@ -29,7 +28,7 @@
 						<div class="panel panel-primary">
 							<div class="panel-body">
 								<div class="panel-heading lead">Ficha de Publicação:</div>
-								<form class="pull-left" action="cadastro.php" method="post">
+								<form class="pull-left" action="registrar.php" method="post">
 									<table>
 										<tbody>
 											<tr>
@@ -37,24 +36,33 @@
 													<p class="text-right lead">Titulo</p>
 												</td>
 												<td>
-													<input class="from-control" type="text" name="titulo" placeholder="Insira o titulo da Notícia">
+													<input class="from-control" type="text" name="titulo" placeholder="Insira o titulo Notícia">
 												</td>
 											</tr>
 											<tr>
+												<tr>
+													<td>
+														<p class="text-right lead">Subtítulo</p>
+													</td>
+													<td>
+														<input class="from-control" type="text" name="subtitulo" placeholder="Insira o subtitulo Notícia">
+													</td>
+												</tr>
+												<tr>
 												<td>
 													<p  class="text-right lead">Autor</p>
 												</td>
 												<td>
-													<input type="text" name="name" placeholder="Insira seu nome">
+													<input type="text" name="autor" placeholder="Insira seu nome">
 												</td>
 											</tr>
 
 											<tr>
 												<td>
-													<p class="text-right lead">Contúdo</p>
+													<p class="text-right lead">Conteúdo</p>
 												</td>
 												<td>
-                          <textarea name="text" rows="8" cols="80" placeholder="Insira seu o contúdo"></textarea>
+                          <textarea name="conteudo" rows="8" cols="80" placeholder="Insira seu o conteúdo"></textarea>
 												</td>
 											</tr>
 											<tr>
@@ -78,7 +86,7 @@
           <div class="col">
               <img id="logo_fundo" src="img/ideialogofundo.png" alt=""> <br>
               C 2018 Todos os direitos reservados. <br>
-              Desenvolvido por GruopG3
+              Desenvolvido por GrupoG3
           </div>
         </div>
       </div>
