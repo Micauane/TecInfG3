@@ -1,53 +1,90 @@
 
 .cabecalho{
-  background: #3e608a;
+  background: #e81b1b;
   margin-bottom: 15px;
 }
+
+#logo{
+  width: 400px;
+}
+
+#icons{
+width: 30px;
+position: absolute; 
+top: 80px; 
+left: 80px;
+}
+
+
+
+.container a {
+color: #d30000;
+}
+
+.cabecalho a{
+color: #ffffff;
+position: absolute; 
+top: 80px; 
+left: 120px;
+}
+
+.cabecalho a:hover{
+color:#000000;
+text-decoration: none;
+}
+
+#01 p{
+  -webkit-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+  -moz-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+  -ms-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+  -o-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+  transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+}
+
+#01 p:hover{
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.panel-body{
+font-weight: normal;
+color: #000000;
+}
+
+#salva {
+  transition: transform .2s
+}
+
+#salva:hover{
+transform: scale(1.1);
+}
+
 .rodape{
   margin-top: -15px;
   text-align: center;
-  background: #3e608a;
+  background: #e81b1b;
   color: #fdfbfb;
   font-weight:300;
 }
+
 span{
   margin-left: 65%;
   color: #4286f4;
   font-weight:400;
 }
+
 .rodape2{
   margin-top: 15px;
   text-align: center;
-  background: #3e608a;
+  background: #e81b1b;
   color: #fdfbfb;
   font-weight:300;
 }
 
-@media (max-width: 480px) {
-  .container{
-    float: none;
-    text-align: center;
-    display: block;
+#logo_fundo{
+  width: 150px;
 }
 
-
-@media (max-width:959px) {
-  .col{
-    width: 100%;
-    display: block;
-    clear: both;
-  }
-}
-
-.rodape{
-  clear: both;
-
-}
-}
-
-
-h3{
-  font-size: 30px;
-  font-weight: 800;
-  margin-bottom: 15px;
-}
