@@ -26,11 +26,14 @@ color: #ffffff;
 position: absolute;
 top: 80px;
 left: 120px;
+font-size: 15px;
 }
 
 .cabecalho a:hover{
 color:#000000;
 text-decoration: none;
+font-size: 18px;
+font-weight: bold;
 }
 
 #01 p{
