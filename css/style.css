@@ -22,3 +22,25 @@ span{
   color: #fdfbfb;
   font-weight:300;
 }
+
+@media (max-width: 480px) {
+  .container{
+    float: none;
+    text-align: center;
+    display: block;
+}
+
+
+@media (max-width:959px) {
+  .col{
+    width: 100%;
+    display: block;
+    clear: both;
+  }
+}
+
+.rodape{
+  clear: both;
+
+}
+}
