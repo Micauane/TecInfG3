@@ -10,8 +10,8 @@
 
 #icons{
 width: 30px;
-position: absolute; 
-top: 80px; 
+position: absolute;
+top: 80px;
 left: 80px;
 }
 
@@ -23,8 +23,8 @@ color: #d30000;
 
 .cabecalho a{
 color: #ffffff;
-position: absolute; 
-top: 80px; 
+position: absolute;
+top: 80px;
 left: 120px;
 }
 
@@ -41,6 +41,10 @@ text-decoration: none;
   transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
 }
 
+.paragrafo{
+  text-align: justify;
+}
+
 #01 p:hover{
   -webkit-transform: scale(1.2);
   -moz-transform: scale(1.2);
@@ -48,7 +52,11 @@ text-decoration: none;
   -o-transform: scale(1.2);
   transform: scale(1.2);
 }
-
+.Titulo{
+  font-family: 'Montserrat', sans-serif;
+  background: rgba(230, 230, 230, .5);
+  text-align: center;
+}
 .panel-body{
 font-weight: normal;
 color: #000000;
@@ -87,4 +95,3 @@ span{
 #logo_fundo{
   width: 150px;
 }
-
