@@ -1,5 +1,5 @@
 
-
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 .cabecalho{
   background: #e81b1b;
   margin-bottom: 15px;
@@ -16,6 +16,8 @@ top: 80px;
 left: 80px;
 }
 .ultimanoticia{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
   border-radius: 5px;
   background: red;
   text-align: center;
@@ -53,13 +55,12 @@ font-weight: bold;
 }
 
 .paragrafo{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
   text-align: justify;
+  color: #444444;
 }
-.paragrafo:hover{
-  background-color: rgba(230, 230, 230, 0.5);
-  font-size: 18px;
-  box-shadow: 2px 2px 1px rgba(230, 230, 230, 0.9);
-}
+
 
 #01 p:hover{
   -webkit-transform: scale(1.2);
@@ -69,8 +70,9 @@ font-weight: bold;
   transform: scale(1.2);
 }
 .Titulo{
-  font-family: 'Montserrat', sans-serif;
-  background: rgba(230, 230, 230, .5);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+
   text-align: center;
 }
 .panel-body{
@@ -95,7 +97,7 @@ transform: scale(1.1);
 }
 
 span{
-  margin-left: 65%;
+  margin-left: 80%;
   color: #4286f4;
   font-weight:400;
 }

@@ -8,7 +8,6 @@ include 'teste-buscarDados.php';
 <html lang="pt-br">
 <head>
   <meta charset="utf-8">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <title>TecNews</title>
