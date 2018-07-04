@@ -34,7 +34,7 @@ include 'teste-buscarDados.php';
 
  <div class="container">
    <div class="row">
-       <div class="col-md-7 offset-md-2">
+       <div class="col-12">
           <div class="ultimanoticia">
             <br>
             <h3><?php echo $titulo ?></h3> <br>
