@@ -33,7 +33,7 @@
 							<div class="panel-heading lead">Ficha de Publicação:
 							</div>
 
-							<form class="pull-left" action="registrar.php" method="post">
+							<form class="pull-left" action="index.php" method="post">
 								<table>
 									<tbody>
 
@@ -57,7 +57,7 @@
 												<input class="from-control" type="text" name="subtitulo" placeholder="Insira o subtitulo">
 											</td>
 
-										</tr>	
+										</tr>
 
 										<tr>
 											<td>
