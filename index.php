@@ -1,7 +1,9 @@
 <?php
  include 'connecta.php';
 ?>
-
+<?php
+include 'teste-buscarDados.php';
+ ?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -30,11 +32,29 @@
     </div>
   </div>
 
- 
-  <?php 
+
+ <div class="container">
+   <div class="row">
+       <div class="col-md-7 offset-md-2">
+          <div class="ultimanoticia">
+            <h3><?php echo $titulo ?></h3> <br>
+            <p><?php echo $subtitulo ?></p> <br>
+            <span><?php echo $autor ?></span>
+            data <br>
+          </div>
+       </div>
+   </div>
+ </div>
+
+
+ <div class='container'>
+     <div class='row'>
+  <?php
     include 'exibirNoticias.php';
   ?>
-      
+</div>
+</div>
+
   <div class="rodape">
     <div class="container">
       <div class="row">

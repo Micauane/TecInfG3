@@ -8,10 +8,8 @@
 
 	if($checarResultados > 0) { //Se houver algum resultado faça o seguinte:
 		while ($linhas = mysqli_fetch_assoc($resultado)) //buscar os resultados da query e insira nas linhas (variavel que se tornara um array)
-		echo 
+		echo
 		"
-		<div class='container'>
-    		<div class='row'>
       			<div class='col-sm-12 col-md-6 col-lg-4'>
 
         			<h3 class='Titulo'>" . $linhas['titulo'] . "</h3>
@@ -22,10 +20,7 @@
         			<br> <a href='#'>ver mais</a>
         			<hr>
         		</div>
-        	</div>
-      	</div> 
       	";
 	}
 
 ?>
-

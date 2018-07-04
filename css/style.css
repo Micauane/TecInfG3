@@ -15,11 +15,18 @@ position: absolute;
 top: 80px;
 left: 80px;
 }
+.ultimanoticia{
+  border-radius: 5px;
+  background: red;
+  text-align: center;
+  margin-bottom: 15px;
+  color: #ffffff;
 
-
+}
 
 .container a {
 color: #d30000;
+
 }
 
 .cabecalho a{
