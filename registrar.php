@@ -11,12 +11,12 @@ $sql = "INSERT INTO noticia (titulo, subtitulo, autor, conteudo) VALUES ('$titul
 // O conteudo é o unico que não funciona e não sei resolver
 
 if($conexao->query($sql) === TRUE){
-  echo 'registro adicionado com sucesso';
+  echo "<script type='text/javascript'>alert('Publicado com sucesso!')</script>";
 }else {
   echo 'Erro:' . $sql . '<br/>' . $conexao->error;
 }
 
-//fechar conexão
+//fechar conexãos
 $conexao->close();
 
 ?>
