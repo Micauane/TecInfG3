@@ -9,18 +9,22 @@
 	if($checarResultados > 0) { //Se houver algum resultado faça o seguinte:
 		while ($linhas = mysqli_fetch_assoc($resultado)) //buscar os resultados da query e insira nas linhas (variavel que se tornara um array)
 		echo 
-
-		"<div class='container'>
+		"
+		<div class='container'>
     		<div class='row'>
-      			<div class='col-md-4'>
+      			<div class='col-sm-12 col-md-6 col-lg-4'>
+
         			<h3 class='Titulo'>" . $linhas['titulo'] . "</h3>
 
-        		<p class='paragrafo'>" . $linhas['subtitulo'] . "</p>
+        			<p class='paragrafo'>" . $linhas['subtitulo'] . "</p>
 
-        		<span>" . $linhas['autor'] . "</span>
-        		<br> <a href='#'>ver mais</a>
-        		<hr>
-      		</div> ";
+        			<span>" . $linhas['autor'] . "</span>
+        			<br> <a href='#'>ver mais</a>
+        			<hr>
+        		</div>
+        	</div>
+      	</div> 
+      	";
 	}
 
 ?>

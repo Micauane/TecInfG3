@@ -30,6 +30,7 @@
     </div>
   </div>
 
+ 
   <?php 
     include 'exibirNoticias.php';
   ?>
@@ -37,7 +38,7 @@
   <div class="rodape">
     <div class="container">
       <div class="row">
-        <div class="col">
+        <div class="col-md-12">
           <img id="logo_fundo" src="Layouts\PNGs\Logo\Logo.png" alt=""> <br>
                © 2018 Todos os direitos reservados. <br>
                Desenvolvido por Grupo 3
