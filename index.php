@@ -21,7 +21,7 @@
          </div>
          <div class="col-4">
            <img id="icons" src="Layouts\PNGs\Icons\Newsicon.png">
-           <a id="02" class="publicar" href="formulario.html">Publicar</a>
+           <a id="02" class="publicar" href="formulario.php">Publicar</a>
          </div>
        </div>
        </div>
@@ -109,8 +109,8 @@
          <div class="row">
            <div class="col">
                <img id="logo_fundo" src="Layouts\PNGs\Logo\Logo.png" alt=""> <br>
-               &#174; 2018 Todos os direitos reservados. <br>
-               Desenvolvido por GruopG3
+               © 2018 Todos os direitos reservados. <br>
+               Desenvolvido por Grupo 3
            </div>
          </div>
        </div>
