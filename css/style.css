@@ -18,14 +18,17 @@ left: 80px;
 .ultimanoticia{
   font-family: 'Raleway', sans-serif;
   font-weight: 100;
-  border-radius: 5px;
-  background: red;
+  border-radius: 4px;
+  background:  #e81b1b;
   text-align: center;
   margin-bottom: 15px;
   color: #ffffff;
 
 }
 
+.ultimanoticia span{
+color: #ffffff;
+}
 .container a {
 color: #d30000;
 
@@ -46,39 +49,23 @@ font-size: 18px;
 font-weight: bold;
 }
 
-#01 p{
-  -webkit-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
-  -moz-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
-  -ms-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
-  -o-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
-  transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
-}
+
 
 .paragrafo{
   font-family: 'Raleway', sans-serif;
   font-weight: 100;
   text-align: justify;
-  color: #444444;
+  color: #706f6f;
 }
 
 
-#01 p:hover{
-  -webkit-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  -o-transform: scale(1.2);
-  transform: scale(1.2);
-}
 .Titulo{
   font-family: 'Raleway', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
 
   text-align: center;
 }
-.panel-body{
-font-weight: normal;
-color: #000000;
-}
+
 
 #salva {
   transition: transform .2s
