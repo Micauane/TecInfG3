@@ -32,7 +32,6 @@ color: #ffffff;
 }
 .container a {
 color: #d30000;
-
 }
 
 .cabecalho a{
@@ -44,13 +43,12 @@ font-size: 15px;
 }
 
 .cabecalho a:hover{
+font-family: 'Raleway', sans-serif;
 color:#000000;
 text-decoration: none;
 font-size: 18px;
 font-weight: bold;
 }
-
-
 
 .paragrafo{
   font-family: 'Raleway', sans-serif;
@@ -65,15 +63,6 @@ font-weight: bold;
   font-weight: 400;
 
   text-align: center;
-}
-
-
-#salva {
-  transition: transform .2s
-}
-
-#salva:hover{
-transform: scale(1.1);
 }
 
 .rodape{

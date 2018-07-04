@@ -17,7 +17,7 @@
         			<p class='paragrafo'>" . $linhas['subtitulo'] . "</p>
 
         			<span>" . $linhas['autor'] . "</span>
-        			<br> <a href='#'>ver mais</a>
+        			<br> <a href='Noticias.php?id='" . $linhas['id'] . ">ver mais</a>
         			<hr>
         		</div>
       	";
